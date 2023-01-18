@@ -16,16 +16,16 @@
 | occlusion | _ |
   
 **VisDrone sınıfları:** 
-  - ignored regions (0) 
-  - pedestrian (1) 
-  - people (2)
-  - bicycle (3)
-  - car (4)
-  - van (5)
-  - truck (6) 
-  - tricycle (7) 
-  - awning-tricycle (8)
-  - bus (9)
-  - motor (10)
-  - others (11)
+  1. ignored regions 
+  2. pedestrian 
+  3. people 
+  4. bicycle 
+  5. car
+  6. van 
+  7. truck  
+  8. tricycle  
+  9. awning-tricycle 
+  10. bus 
+  11. motor 
+  12. others 
  
