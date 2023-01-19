@@ -2,7 +2,7 @@
 
 ## VisDrone Format 
 
-```<bbox_left> , <bbox_top> , <bbox_width> , <bbox_height> , < score > , <object_category> , < truncation > , <occlusion >```
+```<bbox_left> , <bbox_top> , <bbox_width> , <bbox_height> , < score > , <object_category> , < truncation > , < occlusion >```
  
 | Value  | Explanation |
 | ------------- | ------------- |
@@ -34,6 +34,10 @@
 | Value  | Explanation |
 | ------------- | ------------- |
 | object-class  | Nesnenin sınıf indeksi |
-| x_center  | Sınırlayıcı kutunun merkez x koordinatı, görüntünün genişlik yüksekliğine göre oranlandığı için değerler (0.0, 1.0] arasındadır.|
-| y_center  | Sınırlayıcı kutunun merkez y koordinatı  |
-| bbox_height  | Sınırlayıcı kutunun yüksekliği  |
+| x_center  | Sınırlayıcı kutunun merkez x koordinatı |
+| y_center  | Sınırlayıcı kutunun merkez y koordinatı |
+| width  | Sınırlayıcı kutunun genişliği  |
+| height | Sınırlayıcı kutunun yüksekliği |
+
+Görüntünün genişlik ve yüksekliğine göre oranlandığı için ```x_center, y_center, width, height``` değerleri (0.0, 1.0] arasındadır.
+x_center = x / image_width ,  height = height / image_height
