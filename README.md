@@ -2,7 +2,7 @@
 
 ## VisDrone Format 
 
-<bbox_left> , <bbox_top> , <bbox_width> , <bbox_height> , < score > , <object_category> , < truncation > , < occlusion >
+```<bbox_left> , <bbox_top> , <bbox_width> , <bbox_height> , < score > , <object_category> , < truncation > , < occlusion >```
  
 | Value  | Explanation |
 | ------------- | ------------- |
@@ -11,7 +11,7 @@
 | bbox_width  | Sınırlayıcı kutunun genişliği  |
 | bbox_height  | Sınırlayıcı kutunun yüksekliği  |
 | score | _ |
-| object_category | nesnenin sınıf indeksi | 
+| object_category | Nesnenin sınıf indeksi | 
 | truncation | _ |
 | occlusion | _ |
   
@@ -29,3 +29,11 @@
   11. motor 
   12. others 
  
+## YOLO Format 
+```<object-class> <x_center> <y_center> <width> <height>```
+| Value  | Explanation |
+| ------------- | ------------- |
+| object-class  | Nesnenin sınıf indeksi |
+| x_center  | Sınırlayıcı kutunun merkez x koordinatı, görüntünün genişlik yüksekliğine göre oranlandığı için değerler (0.0, 1.0] arasındadır.|
+| y_center  | Sınırlayıcı kutunun merkez y koordinatı  |
+| bbox_height  | Sınırlayıcı kutunun yüksekliği  |
