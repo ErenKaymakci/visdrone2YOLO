@@ -42,3 +42,8 @@
 Görüntünün genişlik ve yüksekliğine göre oranlandığı için ```x_center, y_center, width, height``` değerleri (0.0, 1.0] arasındadır.
 
 ```x_center = x / image_width``` , ```height = height / image_height```
+
+resim üzerinde iki formatı da göster noktasal
+
+## VisDrone 🠊 YOLO
+[formülü yaz]
