@@ -43,24 +43,24 @@ Görüntünün genişlik ve yüksekliğine göre oranlandığı için ```x_cente
 
 ```x_center = x / image_width``` , ```height = height / image_height```
 
-resim üzerinde iki formatı da göster noktasal
+VisDrone ile YOLO arasındaki fark görsel olarak aşağıdaki şekilde gösterilmiştir. Gri nokta YOLO'nun aldığı koordinatı, kırmızı nokta ise VisDrone koordinatını belirtmektedir.
 
-## VisDrone 🠊 YOLO
-```
-x_center = bbox_left + (bbox_width / 2) 
-yoloX = x_center / image_width 
-```
+![](materials/bbox.png)
 
 ## Kullanım
-git clone <link> 
-pip install -r requirements.txt 
 
-VisDrone resimlerinizi VisDrone-Images, VisDrone etiketlerinizi VisDrone-Labels klasörlerine koyun. 
+VisDrone resimlerinizi [VisDrone-Images](https://github.com/ErenKaymakci/visdrone2YOLO/tree/main/VisDrone-Images), VisDrone etiketlerinizi [VisDrone-Labels](https://github.com/ErenKaymakci/visdrone2YOLO/tree/main/VisDrone-Labels) klasörlerine koyun. 
 
-``` python visdrone2yolo.py ```
+``` 
+python visdrone2yolo.py 
+```
 
 eğer "ignored regions" ve "other" sınıflarının etikete yazılmasını istemiyorsanız:
 
-```python visdrone2yolo.py --ignore``` 
+```
+python visdrone2yolo.py --ignore 1
+``` 
 
+## Lisans
+[MIT](https://github.com/ErenKaymakci/visdrone2YOLO/blob/main/LICENSE)
 
