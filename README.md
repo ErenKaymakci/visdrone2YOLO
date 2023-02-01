@@ -45,7 +45,9 @@ Görüntünün genişlik ve yüksekliğine göre oranlandığı için ```x_cente
 
 VisDrone ile YOLO arasındaki fark görsel olarak aşağıdaki şekilde gösterilmiştir. Gri nokta YOLO'nun aldığı koordinatı, kırmızı nokta ise VisDrone koordinatını belirtmektedir.
 
-![](materials/bbox.png)
+<p align="center">
+  <img src="https://github.com/ErenKaymakci/visdrone2YOLO/blob/main/materials/bbox.png" />
+</p>
 
 ## Kullanım
 
