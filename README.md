@@ -46,4 +46,21 @@ Görüntünün genişlik ve yüksekliğine göre oranlandığı için ```x_cente
 resim üzerinde iki formatı da göster noktasal
 
 ## VisDrone 🠊 YOLO
-[formülü yaz]
+```
+x_center = bbox_left + (bbox_width / 2) 
+yoloX = x_center / image_width 
+```
+
+## Kullanım
+git clone <link> 
+pip install -r requirements.txt 
+
+VisDrone resimlerinizi VisDrone-Images, VisDrone etiketlerinizi VisDrone-Labels klasörlerine koyun. 
+
+``` python visdrone2yolo.py ```
+
+eğer "ignored regions" ve "other" sınıflarının etikete yazılmasını istemiyorsanız:
+
+```python visdrone2yolo.py --ignore``` 
+
+
