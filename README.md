@@ -47,8 +47,8 @@ resim üzerinde iki formatı da göster noktasal
 
 ## VisDrone 🠊 YOLO
 ```
-x_center = bbox_left + bbox_width / 2 
-x_center = x_center / image_width 
+x_center = bbox_left + (bbox_width / 2) 
+yoloX = x_center / image_width 
 ```
 
 ## Kullanım
