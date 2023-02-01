@@ -57,10 +57,10 @@ pip install -r requirements.txt
 
 VisDrone resimlerinizi VisDrone-Images, VisDrone etiketlerinizi VisDrone-Labels klasörlerine koyun. 
 
-python visdrone2yolo.py
+``` python visdrone2yolo.py ```
 
-eğer "ignored regions" ve "other" sınıflarının etikete yazılmasını istiyorsanız:
+eğer "ignored regions" ve "other" sınıflarının etikete yazılmasını istemiyorsanız:
 
-python visdrone2yolo.py --ignore 
+```python visdrone2yolo.py --ignore``` 
 
 
